@@ -1,0 +1,85 @@
+:root {
+	--white: #fff;
+	--green: #006a4e;
+	--orange: #fb6801;
+	--text: #313131;
+}
+
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.img-responsive:hover {
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.fa-search,
+.fa-cart-plus,
+.fa-bars {
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+}
+.fa-bars {
+	margin-left: 10px;
+	color: var(--green);
+}
+.fa-angle-double-right {
+	margin: 0 5px 0 15px;
+	font-size: 20px;
+}
+.fa-truck {
+	color: #e76262;
+}
+.fa-money-check-alt {
+	padding: 0 5px;
+}
+.explore_text,
+.shodai_text,
+.mama_text {
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+}
+.shodai_text {
+	color: var(--green);
+}
+.mama_text {
+	color: var(--orange);
+}
+.fixSidebar {
+	overflow-y: scroll;
+	position: fixed;
+	bottom: 0;
+	top: 64px;
+}
+.fa-shopping-basket,
+.fa-leaf,
+.fa-stopwatch-20,
+.fa-cc-amazon-pay,
+.fa-universal-access,
+.fa-balance-scale,
+.fa-headset,
+.fa-google-wallet {
+	font-size: 52px;
+	margin: 20px 0;
+	color: var(--green);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--orange);
+	border-radius: 10px;
+}

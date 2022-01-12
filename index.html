@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>shodaimama</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/8bcffb13b5.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- header section -->
+		<header class="header">
+			<div class="header_hamburger">
+				<div class="hamburger-icon">
+					<i class="fas fa-bars"></i>
+				</div>
+			</div>
+			<div class="header_left">
+				<a href="/" class="header_left-logo">
+					<img src="images/logo.png" class="header-logo" />
+				</a>
+			</div>
+
+			<div class="header_right">
+				<a href="#" class="header_right-item">
+					<i class="fas fa-search"></i>
+				</a>
+				<a href="#" class="header_right-item header-location">
+					<i class="fas fa-map-marker-alt"></i>
+					select delivery location
+				</a>
+				<a href="#" class="header_right-item header-signin">
+					<i class="fas fa-user"></i>
+					Sing in
+				</a>
+				<a href="/cart.html" class="header_cart header_right-item">
+					<i class="fas fa-cart-plus"></i>
+					<i class="fas fa-angle-double-right"></i>
+					<div class="header_cart-inner">
+						<div class="cart-top">
+							<i class="fas fa-file-invoice"></i>
+							0
+						</div>
+						<hr />
+						<div class="cart-bottom">৳ 0 0</div>
+					</div>
+				</a>
+			</div>
+		</header>
+
+		<main class="main">
+			<!-- fixed left sidebar -->
+			<div class="fixSidebar">
+				<div class="sidebar">
+					<div class="sidebar_main">
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/home.png"
+								alt="home"
+							/>
+							home
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/fresh.png"
+								alt="home"
+							/>
+							Fresh
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/regular.png"
+								alt=""
+								srcset=""
+							/>
+							Regular
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/preorder.png"
+								alt=""
+							/>
+							Pre Order
+						</a>
+					</div>
+					<div class="sidebar_header">
+						<a class="leftSideBarTopNavItemLink" href="#">
+							<span class="explore_text"> Explore </span>
+							<span class="shodai_text"> Shodai </span>
+							<span class="mama_text"> Mama </span>
+						</a>
+					</div>
+					<div class="sidebar_explore">
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/hygiene.png"
+								alt=""
+							/>
+							Hygiene
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/breakfast.png"
+								alt=""
+							/>
+							Breakfast and Snacks
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/cook.png"
+								alt=""
+							/>
+							Cooking
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/meat.png"
+								alt=""
+							/>
+							Meat & fish
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/vegetable.png"
+								alt=""
+							/>
+							Fruits & Vegetables
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/dairy.png"
+								alt=""
+							/>
+							Dairy
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/can.png"
+								alt=""
+							/>
+							Frozen & Canned
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/breakfast.png"
+								alt=""
+							/>
+							Beverages
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/kid.png"
+								alt=""
+							/>
+							Kids care
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/personal.png"
+								alt=""
+							/>
+							Personal care
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/home.png"
+								alt=""
+							/>
+							Home & kitchen
+						</a>
+						<a href="#" class="sidebar_main-item">
+							<img
+								class="sidebar-img"
+								src="./images/icons/hygiene.png"
+								alt=""
+							/>
+							Stationary
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="homearea">
+				<div class="homearea_category">
+					<a class="homearea_category-item active" href="#">Fresh</a>
+					<a class="homearea_category-item" href="#">Regular</a>
+					<a class="homearea_category-item" href="#">PreOrder</a>
+				</div>
+				<div class="homearea_slider">
+					<img src="./images/cover.png" width="100%" alt="cover" />
+				</div>
+				<!-- alertflex--grow-0 -->
+				<div class="homearea_alert">
+					<h4 class="homearea_alert-head">Preorder</h4>
+					<h4 class="homearea_alert-subtitle">
+						বাজার দরের চেয়ে কম মূল্যে মৌসুমি পণ্য, ঐতিহ্যবাহী খাবার
+						এবং মাসের বাজার সরবরাহ করা হয় ২-৭ দিনে ।
+					</h4>
+				</div>
+				<!-- main contensts -->
+				<div class="homearea_content">
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624531802779_09776635_VXOUGIJD_SASSMIS.webp"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Red Tometo</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/WgSutE1638438669432xBfrAN.jpeg"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Pineapple Medium</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624443046759_27246148_LsBOqPzg_SASSMIS.webp"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">MEAT</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1627800916640_45228516_onrxkOib_SASSMIS.jpg"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Chicken eggs</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1627800916640_45228516_onrxkOib_SASSMIS.jpg"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Pineapple Medium</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624519151384_84633001_CNUNfM7J_SASSMIS.webp"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Pineapple Medium</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624445033731_92019225_CDJtdCCV_SASSMIS.jpg"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">
+							Horlicks Health And Nutrition Drink Jar
+						</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624442270112_71240631_dLH2Ie0P_SASSMIS.jpg"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Pineapple Medium</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+					<div class="homearea_card">
+						<div class="homearea_card-tag">fresh</div>
+						<div class="homearea_card-media">
+							<img
+								src="https://bucket.shodaimama.com/files/sm/images/smprod_1624519151384_84633001_CNUNfM7J_SASSMIS.webp"
+								alt=""
+								class="img-responsive"
+							/>
+						</div>
+						<div class="homearea_card-title">Pineapple Medium</div>
+						<div class="homearea_card-count">each</div>
+						<div class="homearea_card-price">
+							৳ <span class="homearea_card-num"> 55</span>
+						</div>
+						<div class="homearea_card-row">
+							<div class="homearea_card-delivery">
+								<i class="fas fa-truck"></i>
+								<span class="next-morning">next morning</span>
+							</div>
+							<div class="homearea_card-delivery">
+								<i class="fas fa-money-check-alt"></i>
+								<i class="fas fa-money-bill-wave"></i>
+							</div>
+						</div>
+						<div class="homearea_card-button">addTo card</div>
+					</div>
+				</div>
+
+				<!-- alertflex--grow-0 -->
+				<div class="homearea_alert">
+					<h4 class="homearea_alert-head">Preorder</h4>
+					<h4 class="homearea_alert-subtitle">
+						বাজার দরের চেয়ে কম মূল্যে মৌসুমি পণ্য, ঐতিহ্যবাহী খাবার
+						এবং মাসের বাজার সরবরাহ করা হয় ২-৭ দিনে ।
+					</h4>
+				</div>
+
+				<!-- home category -->
+				<div class="bottom_category">
+					<div class="bottom_category-headline">
+						<div class="bottom_category-headline_inner">
+							Shodaimama Categories
+						</div>
+					</div>
+					<div class="bottom_category-container">
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/breakfast.png"
+								alt="breakfast"
+							/>
+							Breakfast and Snacks
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/cook.png"
+								alt="breakfast"
+							/>
+							Cooking
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/meat.png"
+								alt="breakfast"
+							/>
+							Meat and Fish
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/vegetable.png"
+								alt="breakfast"
+							/>
+							Fruits and vegetables
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/dairy.png"
+								alt="breakfast"
+							/>
+							Dairy
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/can.png"
+								alt="breakfast"
+							/>
+							Frozen and Canned
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/hygiene.png"
+								alt="breakfast"
+							/>
+							Breakfast and Snacks
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/kid.png"
+								alt="breakfast"
+							/>
+							Kids care
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/personal.png"
+								alt="breakfast"
+							/>
+							Personal care
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/breakfast.png"
+								alt="breakfast"
+							/>
+							Home and Kitchen
+						</div>
+						<div class="bottom_category-card">
+							<img
+								class="bottom_category-img"
+								src="./images/icons/preorder.png"
+								alt="breakfast"
+							/>
+							Stationary
+						</div>
+					</div>
+				</div>
+
+				<!-- why shodaimama -->
+				<div class="why_shodaimama">
+					<div class="why_shodaimama-headline">
+						<div class="why_shodaimama-headline_inner">
+							Why Shodaimama
+						</div>
+					</div>
+					<div class="why_shodaimama-container">
+						<div class="why_shodaimama-card">
+							<i class="fas fa-shopping-basket"></i>
+							<div class="why_shodaimama-title">
+								Hassle Free Grocery Shopping
+							</div>
+							<div class="why_shodaimama-info">
+								Avoid the crowds and long queues to get your
+								daily needs.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fas fa-leaf"></i>
+							<div class="why_shodaimama-title">
+								Freshness Redefined
+							</div>
+							<div class="why_shodaimama-info">
+								Fresh groceries from trusted and hygienic
+								sources to your doorstep.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fas fa-stopwatch-20"></i>
+							<div class="why_shodaimama-title">
+								On-Time Doorstep Delivery
+							</div>
+							<div class="why_shodaimama-info">
+								Solution to your needs just on time.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fab fa-cc-amazon-pay"></i>
+							<div class="why_shodaimama-title">
+								Fast & Flawless Payment System
+							</div>
+							<div class="why_shodaimama-info">
+								All secured payment gateways to ensure stress
+								free fast payment.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fas fa-universal-access"></i>
+							<div class="why_shodaimama-title">
+								Customer Centric Approach
+							</div>
+							<div class="why_shodaimama-info">
+								For us, our customer needs comes first. Our Aim
+								is to offer the very Best quality, at the best
+								price and deals.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fas fa-balance-scale"></i>
+							<div class="why_shodaimama-title">
+								Value For Money
+							</div>
+							<div class="why_shodaimama-info">
+								Commited to ensure that your hard-earned money
+								are spent wisely.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fas fa-headset"></i>
+							<div class="why_shodaimama-title">
+								Prompt Query Resolve
+							</div>
+							<div class="why_shodaimama-info">
+								Not just answering your calls, rather a
+								substantial solution to all your queries.
+							</div>
+						</div>
+						<div class="why_shodaimama-card">
+							<i class="fab fa-google-wallet"></i>
+							<div class="why_shodaimama-title">
+								Stress Free Refund/Return Policy
+							</div>
+							<div class="why_shodaimama-info">
+								With proper validation your return and refund
+								will be as smooth as your shopping experience
+								with us.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- footer -->
+				<div class="footer">
+					<div class="footer_col">
+						<img src="/images/logo.png" width="110" alt="logo" />
+						<div class="footer_col-social">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+						</div>
+						<button class="footer_col-app">shodaimama app</button>
+						<div class="footer_col-credit">ShodaiMama © 2021</div>
+					</div>
+					<div class="footer_col">
+						<h3 class="footer_col_title">Useful Links</h3>
+						<div class="footer_col-link">
+							<a href="#" class="footer_col-link_item"
+								>About Shodaimama
+							</a>
+							<a href="#" class="footer_col-link_item">FAQ </a>
+							<a href="#" class="footer_col-link_item"
+								>Contact Us</a
+							>
+							<a href="#" class="footer_col-link_item">Career</a>
+						</div>
+					</div>
+					<div class="footer_col">
+						<h3 class="footer_col_title">Helpful Links</h3>
+						<div class="footer_col-link">
+							<a href="#" class="footer_col-link_item"
+								>About Shodaimama
+							</a>
+							<a href="#" class="footer_col-link_item">FAQ </a>
+							<a href="#" class="footer_col-link_item"
+								>Contact Us</a
+							>
+							<a href="#" class="footer_col-link_item">Career</a>
+						</div>
+					</div>
+					<div class="footer_col">
+						<h3 class="footer_col_title">Helpful Links</h3>
+						<div class="footer_col-link">
+							<a href="#" class="footer_col-link_item"
+								>About Shodaimama
+							</a>
+							<a href="#" class="footer_col-link_item">FAQ </a>
+							<a href="#" class="footer_col-link_item"
+								>Contact Us</a
+							>
+							<a href="#" class="footer_col-link_item">Career</a>
+						</div>
+					</div>
+				</div>
+				<img
+					src="https://shodaimama.com/static/media/SSLCommerz-Pay-With-logo-All-Size-05.b4efc4ca.png"
+					alt=""
+					width="100%"
+					class="payment-image1"
+				/>
+				<img
+					src="https://shodaimama.com/static/media/SSLCommerz-Pay-With-logo-All-Size-04.2e69075d.png"
+					alt=""
+					width="100%"
+					class="payment-image2"
+				/>
+			</div>
+			<div class="mobile_sidebar">
+				<div class="mobile_sidebar-list">
+					<div class="mobile_sidebar-item">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</div>
+					<div class="mobile_sidebar-item">Regular</div>
+					<div class="mobile_sidebar-item">Fresh</div>
+					<div class="mobile_sidebar-item">Preorder</div>
+				</div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
